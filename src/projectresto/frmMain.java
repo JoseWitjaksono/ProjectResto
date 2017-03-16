@@ -354,24 +354,7 @@ public class frmMain extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Harap Lengkapi Data", "Error", JOptionPane.WARNING_MESSAGE);
         }
         else
-        {
-            String MN = "";
-            if(cbMenu.getSelectedItem().equals("Indomie Rebus"))
-            {
-                MN = "1";
-            }
-            if(cbMenu.getSelectedItem().equals("Telur Ceplok"))
-            {
-                MN = "2";
-            }
-            if(cbMenu.getSelectedItem().equals("Es Teh"))
-            {
-                MN = "3";
-            }
-            if(cbMenu.getSelectedItem().equals("Kopi"))
-            {
-                MN = "4";
-            }           
+        {          
           String SQL = "INSERT INTO tb_transaksi (id_nota,tanggal_transaksi,kasir,menu,jumlah,harga)"+"VALUES('"+no_nota+"','"+lbTanggal.getText()+"','"+tfNama.getText()+"','"+MN+"','"+tfJumlah.getValue()+"','"+tfHarga.getText()+"')";
           int status = KoneksiDB.execute(SQL);
           if(status == 1){
