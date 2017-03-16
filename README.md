@@ -1,6 +1,6 @@
 ## Aplikasi Restoran
 
-## Hayo mau nyolong script ya, Sesungguhnya Allah maha melihat kawan :)
+## Butuh SourceCode ? Whatsapp 082233080485
 
 ## Identitas
 * Nama  : Seshar Joses Wicaksono
